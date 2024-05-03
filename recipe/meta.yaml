@@ -1,5 +1,5 @@
 {% set name = "ampform-dpd" %}
-{% set version = "0.1.1" %}
+{% set version = "0.1.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: 2664a0bc01cd27020506029cb0598d42c97a71b8b8fd638d3c530f03477ca8cd
+  sha256: a61ef97e689a86024883a29eeb5d30ee0f0e8c4c45f1d552bdb444a074b9680f
 
 build:
   noarch: python
@@ -22,9 +22,13 @@ requirements:
     - setuptools-scm
   run:
     - python >=3.7
-    - ampform >=0.14.1
+    - ampform >=0.14.4,<0.15.dev0
     - attrs >=20.1.0
+    - cloudpickle
+    - jax
+    - jaxlib
     - sympy >=1.10
+    - tensorwaves
     - typing-extensions
 
 test:
