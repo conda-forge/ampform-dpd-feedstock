@@ -1,13 +1,13 @@
 {% set name = "ampform-dpd" %}
-{% set version = "0.1.6" %}
+{% set version = "0.1.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0]|lower }}/{{ name|lower }}/{{ name|lower }}-{{ version }}.tar.gz
-  sha256: 5f3b39045e95d9805876d78e1298b386552b2f7acc470605c2aa8a3b292c62f2
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ampform_dpd-{{ version }}.tar.gz
+  sha256: 3a9830a2541804a408393330f69d46210a66fac38af2c3b4e703dc538e28e6bd
 
 build:
   noarch: python
@@ -27,6 +27,7 @@ requirements:
     - cloudpickle
     - jax
     - jaxlib
+    - qrules >=0.10.0
     - sympy >=1.10
     - tensorwaves
 
