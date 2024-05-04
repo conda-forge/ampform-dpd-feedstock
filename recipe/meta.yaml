@@ -1,5 +1,5 @@
 {% set name = "ampform-dpd" %}
-{% set version = "0.1.7" %}
+{% set version = "0.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/ampform_dpd-{{ version }}.tar.gz
-  sha256: 3a9830a2541804a408393330f69d46210a66fac38af2c3b4e703dc538e28e6bd
+  sha256: 8d50b535bf547a906c68db20d8ab9353fc7b559e9826c5943e059fff60e61b9a
 
 build:
   noarch: python
