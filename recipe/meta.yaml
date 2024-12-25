@@ -46,7 +46,7 @@ about:
   license: GPL-3.0-or-later
   license_family: GPL
   license_file: LICENSE
-  summary: Symbolic expressions for Dalitz-Plot Decomposition
+  summary: Symbolic expressions for amplitude model building with Dalitz-Plot Decomposition
 
 extra:
   recipe-maintainers:
