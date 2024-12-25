@@ -43,8 +43,8 @@ about:
   dev_url: https://github.com/ComPWA/ampform-dpd
   doc_url: https://compwa.github.io/ampform-dpd
   home: https://github.com/ComPWA/ampform-dpd
-  license: GPL-3.0-or-later
-  license_family: GPL
+  license: Apache-2.0
+  license_family: Apache
   license_file: LICENSE
   summary: Symbolic expressions for amplitude model building with Dalitz-Plot Decomposition
 
