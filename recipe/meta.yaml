@@ -42,7 +42,7 @@ test:
 
 about:
   dev_url: https://github.com/ComPWA/ampform-dpd
-  doc_url: https://compwa.github.io/ampform-dpd
+  doc_url: https://ampform-dpd.readthedocs.io
   home: https://github.com/ComPWA/ampform-dpd
   license: Apache-2.0
   license_family: Apache
