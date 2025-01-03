@@ -5,13 +5,13 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/ampform-dpd-fee
 
 Home: https://github.com/ComPWA/ampform-dpd
 
-Package license: GPL-3.0-or-later
+Package license: Apache-2.0
 
-Summary: Symbolic expressions for Dalitz-Plot Decomposition
+Summary: Symbolic expressions for amplitude model building with Dalitz-Plot Decomposition
 
 Development: https://github.com/ComPWA/ampform-dpd
 
-Documentation: https://compwa.github.io/ampform-dpd
+Documentation: https://ampform-dpd.readthedocs.io
 
 Current build status
 ====================
