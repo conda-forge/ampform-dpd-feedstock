@@ -22,11 +22,13 @@ requirements:
     - setuptools-scm
   run:
     - python >={{ python_min }}
-    - ampform >=0.15.4
+    - ampform >=0.15.7
     - attrs >=20.1.0
     - cloudpickle
+    - frozendict
     - jax
     - jaxlib
+    - numpy
     - qrules >=0.10.0
     - sympy >=1.10
     - tensorwaves
